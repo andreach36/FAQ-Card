@@ -1,0 +1,73 @@
+html{
+  min-height: 100%;
+}
+body{
+ background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+h1{
+  font-size: 25px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  color: hsl(237, 12%, 33%);
+}
+h2{
+ font-size: 12px;
+ font-family: 'Kumbh Sans', sans-serif;
+ font-weight: 700;
+ color: hsl(240, 6%, 50%);
+
+}
+p{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(240, 6%, 50%);
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 27rem;
+  width: 50rem;
+
+}
+.picture{
+  flex:1;
+  height: 300px;
+}
+
+.bg-pattern{
+  position:fixed;
+  right: 40rem;
+  bottom: -5rem;
+  height: 45rem;
+}
+.woman{
+  position: fixed;
+  left: 8rem;
+  bottom: 6rem;
+  z-index: 1;
+}
+.box{
+  position: fixed;
+  bottom: 8rem;
+  left: 7.5rem;
+  z-index: 2
+}
+.list{
+  flex:1
+  position: relative;
+  bottom: 15rem;
+  left: 28rem;
+  width: 20rem;
+}
